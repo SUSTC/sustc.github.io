@@ -3,17 +3,12 @@
   "root": "./src",
   "language": "zh-hans",
   "plugins": [
-    "editlink",
     "splitter",
     "katex",
     "advanced-emoji",
     "tbfed-pagefooter"
   ],
   "pluginsConfig": {
-    "editlink": {
-      "base": "https://github.com/SUSTC/sustc.github.io/blob/master",
-      "label": "编辑本页"
-    },
     "tbfed-pagefooter": {
       "copyright": "Copyright &copy SUSTech GitBook Team 2018",
       "modify_label": "该页面修改时间：",
