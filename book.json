@@ -11,7 +11,7 @@
   ],
   "pluginsConfig": {
     "editlink": {
-      "base": "https://gitlab.com/sustc/gitbook/blob/master",
+      "base": "https://github.com/SUSTC/sustc.github.io/blob/master",
       "label": "编辑本页"
     },
     "tbfed-pagefooter": {
