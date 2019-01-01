@@ -1,0 +1,30 @@
+language: node_js   
+node_js: stable   
+
+before_install:
+  - export TZ='Asia/Shanghai'   # update time zone
+  - npm install gitbook-cli -g # install gitbook
+  - node --version
+  - npm --version
+  - gitbook fetch 3.2.3 # fetch final stable version
+  - gitbook install # add any requested plugins in book.json
+
+script:
+  - gitbook build . docs/ # build to docs path
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  local-dir: ./docs/
+  # commit_message: "Deploy release at `date +"%Y-%m-%d %H:%M"`"
+  on:
+    branch: master
+    
+branches:
+  only:
+    - master  # 只监测这个分支，一有动静就开始构建
+
+env:
+  - secure: "EsWXqDDg3xc1RxtwVoEvP9CWS/WL3r+PkH9obyhFDgWeVGLXjD8+9d5kzPWHq173kcaSOztNcGESORf5UNruk+0/xOwdyM5jAV3ykGldXtB1AEN/AMbC2by/ti06d5Xm1/5xTFNMzKtMKURp/p23U6C4CXtzvHy+sXDMVmX1cgyBaTT99i1VVLVnv5rRveJF+O0eC8Xroj/j70N+4btY38Dhey8zlbGLkq22mA7rIxkzdCpZ9dL8EQEgAlNAkHmqSZLdJ+is+NhJBj9uad8kEEGJDgnea2Bc56APLEz6zRE+K91XRR0HgjixqRtVID+ivbzVqhgh8pO3aosfeZjLv2sPwZUbBcwfF+3f3Zq90rN5W4ytypDS349w4DHk2i1O0G5A6RM8ObJXpGfHUV7/bgb4szcQ3jSFR1xvGkr77wBscUu78HqFM2tvOtkj5qJtJL6ZL/vU0TE4MTWRfPPVioDL7bSwGXEHnUeeGR2QFBzS2+eJmW+/wFoOkeWEhzqmgPK7gGGOkmKVJKonCGqMaqvOMT+8jCq+oxXqd9j5yawh6rwKH4CC62Pm1MLXvxrondAZ2lsWWHb4F2e8aotR/uuIelrLZTs8NixyAoBEGoYO9lowjyonN1oNKRZSpXUMZO1uJsL8tJ1TjH/552aaVhmH6MrB7GrLY8LPV7l8MLE="
