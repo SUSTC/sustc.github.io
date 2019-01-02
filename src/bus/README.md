@@ -18,6 +18,7 @@
         document.getElementById("tag").innerHTML= jumpTime + message;
         if(jumpTime==0){
             location.href=url;
+            return;
         }
         jumpTime -= 1;
         setTimeout(function() { showTime(jumpTime, url, message); }, 1000);
