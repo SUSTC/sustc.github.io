@@ -10,9 +10,13 @@
     * [工作日](bus/workday.md)
     * [节假日](bus/holiday.md)
 
+* [使用指南](tips/README.md)
+  * [Sakai | 文件分享](tips/sakai.md)
+
 * [常用Q群](qqgroup.md)
 
 * [软件](software/README.md)
     * [Matlab](software/matlab.md)
 
+* [友情链接](links.md)
 * [贡献条目](about.md)
