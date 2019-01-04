@@ -1,0 +1,18 @@
+{
+  "title": "SUSTech GitBook",
+  "root": "./src",
+  "language": "zh-hans",
+  "plugins": [
+    "splitter",
+    "katex",
+    "advanced-emoji",
+    "tbfed-pagefooter"
+  ],
+  "pluginsConfig": {
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy SUSTech GitBook Team 2018",
+      "modify_label": "该页面修改时间：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    }
+  }
+}
