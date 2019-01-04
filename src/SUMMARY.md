@@ -12,6 +12,7 @@
 
 * [使用指南](tips/README.md)
   * [Sakai | 文件分享](tips/sakai.md)
+  * [联创 | 扫描](tips/unifound.md)
 
 * [常用Q群](qqgroup.md)
 
