@@ -19,15 +19,17 @@ Created by Xinge GUO
     <img src="./unifound/unifound-3.jpeg" width="400"/>
 
 4. 清晰度设置
+
     点击左上角的 `扫描设置`，设置扫描清晰度，一般直接设成最高（600dpi）：
 
     <img src="./unifound/unifound-4.png" width="400"/>
 
 5. 设置文件类型
+
     点击左下角的 `文件类型`
-    
+
     <img src="./unifound/unifound-5.jpeg" width="400"/>
-    
+
     * 单页：扫描结果会变成每份只有一面内容的 pdf 上传
     * 多页：扫描结果会合并成一个多面的 pdf 上传
     * 文件类型：根据需要
@@ -36,8 +38,9 @@ Created by Xinge GUO
 6. 设置文件上传位置
 
     <img src="./unifound/unifound-6.jpeg" width="400"/>
-    
+
     文件夹 → SCAN
+  
     文件会保存在你刷的校园卡的联创里，如图：
 
     <img src="./unifound/unifound-7.jpeg" width="400"/>
@@ -53,6 +56,7 @@ Created by Xinge GUO
     <img src="./unifound/unifound-9.jpeg" width="100"/>
 
 8. 结束扫描
+
     需先点击 `#` 键，再刷卡退出
 
     <img src="./unifound/unifound-10.png" width="400"/>
