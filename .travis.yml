@@ -13,7 +13,7 @@ script:
   - gitbook build . docs/ # build to docs path
 
 after_script:
-  - git clone --depth=1 --branch=gh-pages https://${GH_REF} .deploy_git  # GH_REF是最下面配置的仓库地址
+  - git clone --depth=1 --branch=master https://${GH_REF} .deploy_git  # GH_REF是最下面配置的仓库地址
   - cd .deploy_git
   - cd ../
   - mv .deploy_git/.git/ ./docs/   # 这一步之前的操作是为了保留master分支的提交记录，不然每次git init的话只有1条commit
@@ -22,7 +22,7 @@ after_script:
   - git config user.email "leezisy@gmail.com"  # 修改email
   - git add .
   - git commit -m "Travis-CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"  # 提交记录包含时间 跟上面更改时区配合
-  - git push --quiet "https://${GITHUB_TOKEN}@${GH_REF}" gh-pages:gh-pages  # GH_TOKEN是在Travis中配置环境变量的名称
+  - git push --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:master  # GH_TOKEN是在Travis中配置环境变量的名称
 
 # deploy:
 #   provider: pages
@@ -32,11 +32,11 @@ after_script:
 #   local-dir: ./docs/
 #   # commit_message: "Deploy release at `date +"%Y-%m-%d %H:%M"`"
 #   on:
-#     branch: master
+#     branch: develop
     
 branches:
   only:
-    - master  # 只监测这个分支，一有动静就开始构建
+    - develop  # 只监测这个分支，一有动静就开始构建
 
 env:
   global:
