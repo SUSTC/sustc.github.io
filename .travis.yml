@@ -40,5 +40,5 @@ branches:
 
 env:
   global:
-    - GH_REF: github.com/liziwl/sustc.github.io.git    # hexo 仓库地址
+    - GH_REF: github.com/SUSTC/sustc.github.io.git
     - secure: "EsWXqDDg3xc1RxtwVoEvP9CWS/WL3r+PkH9obyhFDgWeVGLXjD8+9d5kzPWHq173kcaSOztNcGESORf5UNruk+0/xOwdyM5jAV3ykGldXtB1AEN/AMbC2by/ti06d5Xm1/5xTFNMzKtMKURp/p23U6C4CXtzvHy+sXDMVmX1cgyBaTT99i1VVLVnv5rRveJF+O0eC8Xroj/j70N+4btY38Dhey8zlbGLkq22mA7rIxkzdCpZ9dL8EQEgAlNAkHmqSZLdJ+is+NhJBj9uad8kEEGJDgnea2Bc56APLEz6zRE+K91XRR0HgjixqRtVID+ivbzVqhgh8pO3aosfeZjLv2sPwZUbBcwfF+3f3Zq90rN5W4ytypDS349w4DHk2i1O0G5A6RM8ObJXpGfHUV7/bgb4szcQ3jSFR1xvGkr77wBscUu78HqFM2tvOtkj5qJtJL6ZL/vU0TE4MTWRfPPVioDL7bSwGXEHnUeeGR2QFBzS2+eJmW+/wFoOkeWEhzqmgPK7gGGOkmKVJKonCGqMaqvOMT+8jCq+oxXqd9j5yawh6rwKH4CC62Pm1MLXvxrondAZ2lsWWHb4F2e8aotR/uuIelrLZTs8NixyAoBEGoYO9lowjyonN1oNKRZSpXUMZO1uJsL8tJ1TjH/552aaVhmH6MrB7GrLY8LPV7l8MLE="
