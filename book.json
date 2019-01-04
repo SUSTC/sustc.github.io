@@ -12,9 +12,9 @@
   "pluginsConfig": {
     "custom-js-css": {
       "js": [
-        "./js/busuanzi.pure.mini.js",
+        "./js/jquery.min.js",
         "./js/jquery.dataTables.min.js",
-        "./js/jquery.min.js"
+        "./js/busuanzi.pure.mini.js"
       ],
       "css": [
         "./css/jquery.dataTables.min.css"
