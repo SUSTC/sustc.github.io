@@ -1,7 +1,7 @@
 # 友情链接
 
 * [南科wiki](https://sustc.wiki)
-* [南方科技大学开源软件镜像站 | SUSTech Open Source Mirror](http://mirrors.sustc.us/)
+* [南方科技大学开源软件镜像站 | SUSTech Open Source Mirror（校园网）](http://mirrors.sustc.us/)
 
 # 常用链接
 
