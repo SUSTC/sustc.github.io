@@ -3,12 +3,23 @@
   "root": "./src",
   "language": "zh-hans",
   "plugins": [
+    "custom-js-css",
     "splitter",
     "katex",
     "advanced-emoji",
     "tbfed-pagefooter"
   ],
   "pluginsConfig": {
+    "custom-js-css": {
+      "js": [
+        "./js/busuanzi.pure.mini.js",
+        "./js/jquery.dataTables.min.js",
+        "./js/jquery.min.js"
+      ],
+      "css": [
+        "./css/jquery.dataTables.min.css"
+      ]
+    },
     "tbfed-pagefooter": {
       "copyright": "Copyright &copy SUSTech GitBook Team 2018",
       "modify_label": "该页面修改时间：",
