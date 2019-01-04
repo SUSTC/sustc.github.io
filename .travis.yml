@@ -11,6 +11,8 @@ before_install:
 
 script:
   - gitbook build . docs/ # build to docs path
+  - cp CNAME docs/
+  - cp README.md docs/
 
 after_script:
   - git clone --depth=1 --branch=master https://${GH_REF} .deploy_git  # GH_REF是最下面配置的仓库地址
