@@ -353,7 +353,7 @@
         } );
         var now_bus_offset =$(ins_table_ip2lh.row(Math.min(now_bus_row_ip2lh, busdata_ip2lh.length)).node()).offset().top - $(ins_table_ip2lh.row(0).node()).offset().top;
         $("#bus-table-ip2lh .dataTables_scrollBody").scrollTop(now_bus_offset);
-    });            
+    };            
 
 </script>
 {% endraw %}
