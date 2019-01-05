@@ -20,4 +20,4 @@
     * [Matlab](software/matlab.md)
 
 * [友情链接](links.md)
-* [贡献条目](about.md)
+* [关于 | 贡献](about.md)
