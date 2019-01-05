@@ -349,8 +349,11 @@
             busdata_ip2lh[i][2] = "未发车";
         }
     }
-    
-    window.onload=function(){
+
+    function build_all_table(){
+        if ( $.fn.DataTable.isDataTable( '#hl2rb' ) ) {
+            return;
+        }
         // high land - research building
         var ins_table_hl2rb = $('#work-bus-hl2rb').DataTable( {
             data: busdata_hl2rb,
@@ -505,7 +508,13 @@
         } );
         var now_bus_offset =$(ins_table_ip2lh.row(Math.min(now_bus_row_ip2lh, busdata_ip2lh.length)).node()).offset().top - $(ins_table_ip2lh.row(0).node()).offset().top;
         $("#bus-table-ip2lh .dataTables_scrollBody").scrollTop(now_bus_offset);
-    };            
+    }
+
+    document.addEventListener('DOMContentLoaded', build_all_table, false);
+
+    $(document).ready(function(){
+        build_all_table();
+    });
 
 </script>
 {% endraw %}
