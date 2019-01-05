@@ -1,4 +1,7 @@
 # 南科大 Gitbook
+
+项目托管在 [SUSTC/sustc.github.io](https://github.com/sustc/sustc.github.io)
+
 ## 申请权限
 
 * 进入QQ群，说明情况即可。
