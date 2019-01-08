@@ -1,6 +1,7 @@
 # 友情链接
 
 * [南科wiki](https://sustc.wiki)
+* [Life@SUSTech BBS](https://sustc.io/)
 * [南方科技大学开源软件镜像站 | SUSTech Open Source Mirror（校园网）](http://mirrors.sustc.us/)
 
 # 常用链接
