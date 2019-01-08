@@ -10,6 +10,8 @@
     * [工作日](bus/workday.md)
     * [节假日](bus/holiday.md)
 
+* [电话本](tel/README.md)
+
 * [使用指南](tips/README.md)
   * [Sakai | 文件分享](tips/sakai.md)
   * [联创 | 扫描](tips/unifound.md)
