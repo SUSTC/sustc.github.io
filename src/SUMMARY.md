@@ -21,5 +21,5 @@
 * [软件](software/README.md)
     * [Matlab](software/matlab.md)
 
-* [友情链接](links.md)
+* [友情链接 | 常用链接](links.md)
 * [关于 | 贡献](about.md)
