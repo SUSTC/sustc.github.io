@@ -1,5 +1,5 @@
-language: node_js   
-node_js: stable   
+language: node_js
+node_js: stable
 
 before_install:
   - export TZ='Asia/Shanghai'   # update time zone
@@ -8,6 +8,8 @@ before_install:
   - npm --version
   - gitbook fetch 3.2.3 # fetch final stable version
   - gitbook install # add any requested plugins in book.json
+  - name="\"`git log -1 --pretty=format:'%an'`\""
+  - email="\"`git log -1 --pretty=format:'%ae'`\""
 
 script:
   - gitbook build . docs/ # build to docs path
@@ -20,8 +22,8 @@ after_script:
   - cd ../
   - mv .deploy_git/.git/ ./docs/   # 这一步之前的操作是为了保留master分支的提交记录，不然每次git init的话只有1条commit
   - cd ./docs/
-  - git config user.name "liziwl"  # 修改name
-  - git config user.email "leezisy@gmail.com"  # 修改email
+  - git config user.name $name  # 修改name
+  - git config user.email $email  # 修改email
   - git add .
   - git commit -m "Travis-CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"  # 提交记录包含时间 跟上面更改时区配合
   - git push --quiet "https://${GITHUB_TOKEN}@${GH_REF}" master:master  # GH_TOKEN是在Travis中配置环境变量的名称
@@ -35,7 +37,7 @@ after_script:
 #   # commit_message: "Deploy release at `date +"%Y-%m-%d %H:%M"`"
 #   on:
 #     branch: develop
-    
+
 branches:
   only:
     - develop  # 只监测这个分支，一有动静就开始构建
