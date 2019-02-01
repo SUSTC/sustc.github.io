@@ -36,11 +36,11 @@ after_script:
 #   local-dir: ./docs/
 #   # commit_message: "Deploy release at `date +"%Y-%m-%d %H:%M"`"
 #   on:
-#     branch: develop
+#     branch: dev
 
 branches:
   only:
-    - develop  # 只监测这个分支，一有动静就开始构建
+    - dev  # 只监测这个分支，一有动静就开始构建
 
 env:
   global:
