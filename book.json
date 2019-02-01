@@ -7,23 +7,34 @@
     "splitter",
     "katex",
     "advanced-emoji",
-    "tbfed-pagefooter"
+    "page-footer-liziwl"
   ],
   "pluginsConfig": {
     "custom-js-css": {
       "js": [
         "./js/jquery.min.js",
-        "./js/jquery.dataTables.min.js",
-        "./js/busuanzi.pure.mini.js"
+        "./js/jquery.dataTables.min.js"
       ],
       "css": [
         "./css/jquery.dataTables.min.css"
       ]
     },
-    "tbfed-pagefooter": {
-      "copyright": "Copyright &copy SUSTech GitBook Team 2019",
-      "modify_label": "该页面修改时间：",
-      "modify_format": "YYYY-MM-DD HH:mm:ss"
-    }
+    "page-footer-liziwl": {
+			"description": "Updated at",
+			"signature": "SUSTech GitBook Team",
+			"wisdom": "Save Time on looking up information.",
+			"format": "yyyy-MM-dd hh:mm:ss",
+			"copyright": "Copyright &copy SUSTech GitBook Team 2019",
+			"timeColor": "#666",
+      "copyrightColor": "#666",
+			"utcOffset": "8",
+			"isShowQRCode": true,
+      "baseUri": "https://sustech.online/",
+      "isShowIssues": false,
+			"repo": "",
+			"issueNum": "",
+			"token": "",
+      "style": "symmetrical"
+		}
   }
 }
