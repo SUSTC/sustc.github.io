@@ -15,6 +15,7 @@
   - 办公地点: 慧园3栋203、206
   - 公共邮箱（教学事务）: tao@sustc.edu.cn
   - 学生学习服务邮箱: tao-sls@sustc.edu.cn
+  - 选课咨询电话: 88010300
 - [招生办公室 (本科入学)](http://zs.sustc.edu.cn/lianxi/): 88010500
 - [琳恩图书馆](http://lib.sustc.edu.cn/page/contact.html?locale=zh_CN): 88010800
 
