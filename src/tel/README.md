@@ -9,7 +9,7 @@
 
 ## 教学
 
-- [国际合作部 | 关于我们](https://geo.sustc.edu.cn/%E5%85%B3%E4%BA%8E%E5%9B%BD%E9%99%85%E5%90%88%E4%BD%9C%E9%83%A8/)
+- [国际合作部 | 关于我们](https://geo.sustc.edu.cn/gygjhzb/)
 - [研究生院 | 联系方式](https://gs.sustc.edu.cn/callus)
 - [教学工作部 | 联系方式](http://tao.sustech.edu.cn/department/index.html)
   - 办公地点: 慧园3栋203、206
