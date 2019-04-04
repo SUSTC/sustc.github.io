@@ -12,6 +12,8 @@
 
 * [电话本](tel/README.md)
 
+* [教学相关](ehall_links.md)
+
 * [使用指南](tips/README.md)
   * [Sakai | 文件分享](tips/sakai.md)
   * [联创 | 扫描](tips/unifound.md)
@@ -21,5 +23,4 @@
 * [软件](software/README.md)
     * [Matlab](software/matlab.md)
 
-* [友情链接 | 常用链接](links.md)
 * [关于 | 贡献](about.md)
