@@ -17,4 +17,4 @@
     ![](./sakai/sakai-4.png)
     ![](./sakai/sakai-5.png)
 
-    访问红框内网址（`https://sakai.sustc.edu.cn/x/VgWvyf`）即可下载文件。
+    访问红框内网址（`https://sakai.sustech.edu.cn/x/VgWvyf`）即可下载文件。

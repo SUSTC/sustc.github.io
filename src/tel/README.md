@@ -9,15 +9,15 @@
 
 ## 教学
 
-- [国际合作部 | 关于我们](https://geo.sustc.edu.cn/gygjhzb/)
-- [研究生院 | 联系方式](https://gs.sustc.edu.cn/callus)
+- [国际合作部 | 关于我们](https://geo.sustech.edu.cn/gygjhzb/)
+- [研究生院 | 联系方式](https://gs.sustech.edu.cn/callus)
 - [教学工作部 | 联系方式](http://tao.sustech.edu.cn/department/index.html)
   - 办公地点: 慧园3栋203、206
-  - 公共邮箱（教学事务）: tao@sustc.edu.cn
-  - 学生学习服务邮箱: tao-sls@sustc.edu.cn
+  - 公共邮箱（教学事务）: tao@sustech.edu.cn
+  - 学生学习服务邮箱: tao-sls@sustech.edu.cn
   - 选课咨询电话: 88010300
-- [招生办公室 (本科入学)](http://zs.sustc.edu.cn/lianxi/): 88010500
-- [琳恩图书馆](http://lib.sustc.edu.cn/page/contact.html?locale=zh_CN): 88010800
+- [招生办公室 (本科入学)](http://zs.sustech.edu.cn/lianxi/): 88010500
+- [琳恩图书馆](http://lib.sustech.edu.cn/page/contact.html?locale=zh_CN): 88010800
 
 ## 后勤
 

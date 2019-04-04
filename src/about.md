@@ -9,7 +9,7 @@
 
 2. 代理提交
     1. 进入[GitBook编者 QQ群](https://jq.qq.com/?_wv=1027&k=5D8EgDF): 905618908
-    2. 提交规范的Word，Markdown 文件给管理员。
+    2. 提交规范编写的Word，Markdown 文件给管理员。
     3. 管理员整理上传。
 
 ## 编写规范
