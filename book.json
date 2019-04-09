@@ -7,9 +7,13 @@
     "splitter",
     "katex",
     "advanced-emoji",
-    "page-footer-liziwl"
+    "page-footer-liziwl",
+    "baidu-tongji"
   ],
   "pluginsConfig": {
+    "baidu-tongji": {
+      "token": "d3d2c23173a08119fe3e95b5f4c19b02"
+    },
     "custom-js-css": {
       "js": [
         "./js/jquery.min.js",
@@ -20,21 +24,21 @@
       ]
     },
     "page-footer-liziwl": {
-			"description": "Updated at",
-			"signature": "SUSTech GitBook Team",
-			"wisdom": "Save Time on looking up information.",
-			"format": "yyyy-MM-dd hh:mm:ss",
-			"copyright": "Copyright &copy SUSTech GitBook Team 2019",
-			"timeColor": "#666",
+      "description": "Updated at",
+      "signature": "SUSTech GitBook Team",
+      "wisdom": "Save Time on looking up information.",
+      "format": "yyyy-MM-dd hh:mm:ss",
+      "copyright": "Copyright &copy SUSTech GitBook Team 2019",
+      "timeColor": "#666",
       "copyrightColor": "#666",
-			"utcOffset": "8",
-			"isShowQRCode": true,
+      "utcOffset": "8",
+      "isShowQRCode": true,
       "baseUri": "https://sustech.online/",
       "isShowIssues": false,
-			"repo": "",
-			"issueNum": "",
-			"token": "",
+      "repo": "",
+      "issueNum": "",
+      "token": "",
       "style": "symmetrical"
-		}
+    }
   }
 }
