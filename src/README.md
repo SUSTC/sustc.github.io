@@ -11,8 +11,6 @@
 * [联创打印服务](http://pms.sustech.edu.cn)
 
 ## 其他资讯
-* [SUSTech.WTF](https://www.sustech.wtf/)
-* [SUSTech.icu](http://sustech.icu/)
 * [校友地图](https://sustech-application.github.io/SUSTech-Alumni-Map/)
 * [南科wiki](https://sustc.wiki)
 * [Life@SUSTech BBS](https://sustc.io/)
