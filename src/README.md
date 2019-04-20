@@ -13,5 +13,4 @@
 ## 其他资讯
 * [校友地图](https://sustech-application.github.io/SUSTech-Alumni-Map/)
 * [南科wiki](https://sustc.wiki)
-* [Life@SUSTech BBS](https://sustc.io/)
 * [南方科技大学开源软件镜像站 | SUSTech Open Source Mirror（校园网）](http://mirrors.sustc.us/)
