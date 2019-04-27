@@ -1,6 +1,6 @@
 # 南科大 Gitbook
 
-[![Build Status](https://travis-ci.com/SUSTC/sustc.github.io.svg?branch=develop)](https://travis-ci.com/SUSTC/sustc.github.io)
+[![Build Status](https://travis-ci.com/SUSTC/sustc.github.io.svg?branch=develop)](https://travis-ci.com/SUSTC/sustc.github.io) ![GitHub repo size](https://img.shields.io/github/repo-size/SUSTC/sustc.github.io.svg)
 
 本 GitBook 旨在为SUSTecher 提供快捷信息查询服务。
 
