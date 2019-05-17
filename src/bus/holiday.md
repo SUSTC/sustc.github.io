@@ -369,6 +369,9 @@
 
 ## 参考文献
 
+* 2019年5月16日 `校园服务办公室 <ocs@sustech.edu.cn>` 邮件《关于调整校园巴士运行时刻的通知 Notification about Adjustments of the Campus Bus Schedule【2019】12号》
+    * [下载链接](./Campus_Bus_Schedule_1912.pdf)（右键 / 长按保存）
+
 * 2018年12月29日 `校园服务办公室 <ocs@sustc.edu.cn>` 邮件《关于调整校园巴士运行时刻的通知 Notification about Adjustments of the Campus Bus Schedule【2018】50号》
     * [下载链接](./Campus_Bus_Schedule_1850.pdf)（右键 / 长按保存）
 
