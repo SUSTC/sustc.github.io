@@ -1,7 +1,5 @@
 # 校园巴士 - 节假日
 
-![pic](./bus.png)
-
 ## 欣园 → 科研楼（共27班）
 
 * 欣园⇋慧园⇋创园⇋荔园⇋教工餐厅→社康中心→专家公寓⇋三号门⇋一号门⇋行政楼⇋七号门⇋科研楼
@@ -128,6 +126,7 @@
 
 * 荔园→慧园→行政楼→七号门→集悦城B区站→集悦城A区站
     * 集悦城A区停车点位于留仙大道辅道（塘朗山隧道路口公交站）
+    * 集悦城B区停车点位于集悦城A19栋
 
 {% raw %}
 <div id="bus-table-lh2jyc">
@@ -166,6 +165,7 @@
 ## 集悦城 → 荔园（共10班）
 
 * 集悦城B区站→集悦城A区站→六号门→荔园→慧园
+    * 集悦城A区停车点位于留仙大道辅道（塘朗山隧道路口公交站）
     * 集悦城B区停车点位于集悦城A19栋
 
 {% raw %}
@@ -369,6 +369,9 @@
 {% endraw %}
 
 ## 参考文献
+
+* 2019年8月30日 `校园服务办公室 <ocs@sustech.edu.cn>` 邮件《关于调整校园巴士运行时刻及路线的通知 Notice on Adjustment of Campus Bus Schedule and Routes【2019】30号》
+    * [下载链接](./Campus_Bus_Schedule_1930.pdf)（右键 / 长按保存）
 
 * 2019年5月16日 `校园服务办公室 <ocs@sustech.edu.cn>` 邮件《关于调整校园巴士运行时刻的通知 Notification about Adjustments of the Campus Bus Schedule【2019】12号》
     * [下载链接](./Campus_Bus_Schedule_1912.pdf)（右键 / 长按保存）
