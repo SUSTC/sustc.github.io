@@ -1,0 +1,58 @@
+name: Node-CI
+
+on:
+  push:
+    branches:
+    - dev
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Use Node.js 10.x
+      uses: actions/setup-node@v1
+      with:
+        version: 10.x
+
+    - name: Clone Lib
+      run: |
+        git clone --depth 1 --branch dev https://${GH_REF} my_build/
+        cd my_build
+      env:
+        GH_REF: github.com/sustc/sustc.github.io
+
+    - name: npm install and setup env
+      run: |
+        cd my_build
+        npm install gitbook-cli -g # install gitbook
+        gitbook fetch 3.2.3 # fetch final stable version
+        gitbook install # add any requested plugins in book.json
+
+    - name: gitbook build
+      run: |
+        cd my_build
+        gitbook build . docs/ # build to docs path
+        cp CNAME docs/
+        cp README.md docs/
+
+    - name: Publish
+      run: |
+        cd my_build
+        git clone --depth=1 --branch=master https://${GH_REF} .deploy_git  # GH_REF是最下面配置的仓库地址
+        cd .deploy_git
+        cd ../
+        mv .deploy_git/.git/ ./docs/   # 这一步之前的操作是为了保留master分支的提交记录，不然每次git init的话只有1条commit
+        cd ./docs/
+        name="\"`git log -1 --pretty=format:'%an'`\""
+        git config user.name $name  # 修改name
+        email="\"`git log -1 --pretty=format:'%ae'`\""
+        git config user.email $email  # 修改email
+        git add .
+        export TZ='Asia/Shanghai'   # update time zone
+        git commit -m "GitHub-CI Auto Builder at `date +"%Y-%m-%d %H:%M"`"  # 提交记录包含时间 跟上面更改时区配合
+        git push --quiet "https://${ADMIN_KEY}@${GH_REF}" master:master
+      env:
+        ADMIN_KEY: ${{ secrets.ADMIN_TOKEN }}
+        GH_REF: github.com/sustc/sustc.github.io
