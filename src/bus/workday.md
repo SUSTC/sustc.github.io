@@ -449,67 +449,67 @@
         var now_bus_offset =$(ins_table_rb2hl.row(Math.min(now_bus_row_rb2hl, busdata_rb2hl.length)).node()).offset().top - $(ins_table_rb2hl.row(0).node()).offset().top;
         $("#bus-table-rb2hl .dataTables_scrollBody").scrollTop(now_bus_offset);
 
-        // lychee hill - ji yue cheng
-        var ins_table_lh2jyc = $('#work-bus-lh2jyc').DataTable( {
-            data: busdata_lh2jyc,
-            scrollY: 300,
-            paging: false,
-            searching : false,
-            bFilter: false,
-            info: false,
-            columns: [
-                { title: "发车时间" },
-                { title: "平时/高峰", "orderable": false },
-                { title: "状态", "orderable": false },
-            ],
-            rowCallback: function( row, data, index ) {
-                if ( data[2] == "已到达" )
-                {
-                    $('td', row).css('background-color', '#003f43'); // SUSTech dark green
-                    $('td', row).css('color', '#FFFFFF');
-                }
-                else if ( data[2] == "在途中" )
-                {
-                    $('td', row).css('background-color', '#ed6c00'); // SUSTech orange
-                    $('td', row).each(function(){
-                        $(this).html( '<b>'+$(this).text()+'</b>');
-                    });
-                }
-            }
-        } );
-        var now_bus_offset =$(ins_table_lh2jyc.row(Math.min(now_bus_row_lh2jyc, busdata_lh2jyc.length)).node()).offset().top - $(ins_table_lh2jyc.row(0).node()).offset().top;
-        $("#bus-table-lh2jyc .dataTables_scrollBody").scrollTop(now_bus_offset);
+        // // lychee hill - ji yue cheng
+        // var ins_table_lh2jyc = $('#work-bus-lh2jyc').DataTable( {
+        //     data: busdata_lh2jyc,
+        //     scrollY: 300,
+        //     paging: false,
+        //     searching : false,
+        //     bFilter: false,
+        //     info: false,
+        //     columns: [
+        //         { title: "发车时间" },
+        //         { title: "平时/高峰", "orderable": false },
+        //         { title: "状态", "orderable": false },
+        //     ],
+        //     rowCallback: function( row, data, index ) {
+        //         if ( data[2] == "已到达" )
+        //         {
+        //             $('td', row).css('background-color', '#003f43'); // SUSTech dark green
+        //             $('td', row).css('color', '#FFFFFF');
+        //         }
+        //         else if ( data[2] == "在途中" )
+        //         {
+        //             $('td', row).css('background-color', '#ed6c00'); // SUSTech orange
+        //             $('td', row).each(function(){
+        //                 $(this).html( '<b>'+$(this).text()+'</b>');
+        //             });
+        //         }
+        //     }
+        // } );
+        // var now_bus_offset =$(ins_table_lh2jyc.row(Math.min(now_bus_row_lh2jyc, busdata_lh2jyc.length)).node()).offset().top - $(ins_table_lh2jyc.row(0).node()).offset().top;
+        // $("#bus-table-lh2jyc .dataTables_scrollBody").scrollTop(now_bus_offset);
 
-        // ji yue cheng - lychee hill
-        var ins_table_jyc2lh = $('#work-bus-jyc2lh').DataTable( {
-            data: busdata_jyc2lh,
-            scrollY: 300,
-            paging: false,
-            searching : false,
-            bFilter: false,
-            info: false,
-            columns: [
-                { title: "发车时间" },
-                { title: "平时/高峰", "orderable": false },
-                { title: "状态", "orderable": false },
-            ],
-            rowCallback: function( row, data, index ) {
-                if ( data[2] == "已到达" )
-                {
-                    $('td', row).css('background-color', '#003f43'); // SUSTech dark green
-                    $('td', row).css('color', '#FFFFFF');
-                }
-                else if ( data[2] == "在途中" )
-                {
-                    $('td', row).css('background-color', '#ed6c00'); // SUSTech orange
-                    $('td', row).each(function(){
-                        $(this).html( '<b>'+$(this).text()+'</b>');
-                    });
-                }
-            }
-        } );
-        var now_bus_offset =$(ins_table_jyc2lh.row(Math.min(now_bus_row_jyc2lh, busdata_jyc2lh.length)).node()).offset().top - $(ins_table_jyc2lh.row(0).node()).offset().top;
-        $("#bus-table-jyc2lh .dataTables_scrollBody").scrollTop(now_bus_offset);
+        // // ji yue cheng - lychee hill
+        // var ins_table_jyc2lh = $('#work-bus-jyc2lh').DataTable( {
+        //     data: busdata_jyc2lh,
+        //     scrollY: 300,
+        //     paging: false,
+        //     searching : false,
+        //     bFilter: false,
+        //     info: false,
+        //     columns: [
+        //         { title: "发车时间" },
+        //         { title: "平时/高峰", "orderable": false },
+        //         { title: "状态", "orderable": false },
+        //     ],
+        //     rowCallback: function( row, data, index ) {
+        //         if ( data[2] == "已到达" )
+        //         {
+        //             $('td', row).css('background-color', '#003f43'); // SUSTech dark green
+        //             $('td', row).css('color', '#FFFFFF');
+        //         }
+        //         else if ( data[2] == "在途中" )
+        //         {
+        //             $('td', row).css('background-color', '#ed6c00'); // SUSTech orange
+        //             $('td', row).each(function(){
+        //                 $(this).html( '<b>'+$(this).text()+'</b>');
+        //             });
+        //         }
+        //     }
+        // } );
+        // var now_bus_offset =$(ins_table_jyc2lh.row(Math.min(now_bus_row_jyc2lh, busdata_jyc2lh.length)).node()).offset().top - $(ins_table_jyc2lh.row(0).node()).offset().top;
+        // $("#bus-table-jyc2lh .dataTables_scrollBody").scrollTop(now_bus_offset);
 
         // i park - lychee hill
         var ins_table_ip2lh = $('#work-bus-ip2lh').DataTable( {
