@@ -3,8 +3,8 @@
 * [Home](README.md)
 
 * [校历](calendar/README.md)
-    * [2019 校历](calendar/2019.md)
-    * [2018 校历](calendar/2018.md)
+    * [2019-2020 学年](calendar/2019.md)
+    * [2018-2019 学年](calendar/2018.md)
 
 * [校园巴士](bus/README.md)
     * [工作日](bus/workday.md)
