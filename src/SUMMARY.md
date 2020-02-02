@@ -3,8 +3,10 @@
 * [Home](README.md)
 
 * [校历](calendar/README.md)
-    * [2019-2020 学年](calendar/2019.md)
-    * [2018-2019 学年](calendar/2018.md)
+    * [2020-2021 学年](calendar/2020-2021.md)
+    * [2019-2020 学年](calendar/2019-2020.md)
+    * [2018-2019 学年](calendar/2018-2019.md)
+    * [2017-2018 学年](calendar/2017-2018.md)
 
 * [校园巴士](bus/README.md)
     * [工作日](bus/workday.md)
@@ -21,6 +23,6 @@
 * [常用Q群](qqgroup.md)
 
 * [软件](software/README.md)
-    * [Matlab](software/matlab.md)
+    * [MATLAB](software/matlab.md)
 
 * [关于 | 贡献](about.md)
