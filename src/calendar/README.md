@@ -3,7 +3,7 @@
 {% raw %}
 
 <script type="text/javascript">
-    window.location="./2019.html";
+    window.location="./2020-2021.html";
 </script>
 
 {% endraw %}
