@@ -2,7 +2,7 @@
 
 [![](https://github.com/sustc/sustc.github.io/workflows/Node-CI/badge.svg)](https://github.com/sustc/sustc.github.io/actions) ![GitHub repo size](https://img.shields.io/github/repo-size/sustc/sustc.github.io.svg)
 
-本 GitBook 旨在为SUSTecher 提供快捷信息查询服务。
+本 GitBook 旨在为 SUSTecher 提供快捷信息查询服务。
 
 ## 如何贡献
 1. Pull request
