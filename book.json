@@ -8,9 +8,13 @@
     "katex",
     "advanced-emoji",
     "page-footer-liziwl",
-    "baidu-tongji"
+    "baidu-tongji",
+    "icp"
   ],
   "pluginsConfig": {
+    "icp": {
+      "number": "粤ICP备18047383号"
+    },
     "baidu-tongji": {
       "token": "d3d2c23173a08119fe3e95b5f4c19b02"
     },
