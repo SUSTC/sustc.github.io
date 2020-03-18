@@ -1,19 +1,5 @@
-# 学习经验分享
+# 学习资料存储
 
 本网站旨在为 SUSTecher 提供快捷信息查询服务。
 
 移动端须点击左上角, 打开目录。
-
-## 快捷入口
-* [官网链接](http://www.sustech.edu.cn/)
-* [图书馆](https://lib.sustech.edu.cn/)
-* [邮箱服务](http://www.sustech.edu.cn/mail/)
-* [Sakai](http://sakai.sustech.edu.cn), [Blackboard](https://bb.sustech.edu.cn/)
-* [联创打印服务](http://pms.sustech.edu.cn)
-
-## 其他资讯
-* [南方科技大学计算机科学与工程系](http://cse.sustech.edu.cn/)
-* [校友地图](https://sustech-application.github.io/SUSTech-Alumni-Map/)
-* [南科wiki](https://sustc.wiki)
-* [南方科技大学开源软件镜像站 | SUSTech Open Source Mirror（校园网）](https://mirrors.sustc.us/)
-* [南方科技大学超算中心镜像站 | CCSE Open Source Mirrors （校园网）](https://mirrors.sustech.rocks/)

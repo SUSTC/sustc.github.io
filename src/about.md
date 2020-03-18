@@ -1,4 +1,4 @@
-# 学习经验分享
+# 学习资料存储
 
 项目托管在 [SUSTC/sustc.github.io](https://github.com/sustc/sustc.github.io)
 
