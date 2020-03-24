@@ -1,4 +1,4 @@
-# 学习资料存储
+# 南科 Gitbook
 
 项目托管在 [SUSTC/sustc.github.io](https://github.com/sustc/sustc.github.io)
 
