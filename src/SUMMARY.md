@@ -3,7 +3,7 @@
 * [Home](README.md)
 
 * [校历](calendar/README.md)
-    * [2020-2021 学年](calendar/2020-2021.md)
+    * [2020-2021 学年（预发布）](calendar/2020-2021.md)
     * [2019-2020 学年](calendar/2019-2020.md)
     * [2018-2019 学年](calendar/2018-2019.md)
     * [2017-2018 学年](calendar/2017-2018.md)
