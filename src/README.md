@@ -20,3 +20,6 @@
 * [2020飞跃手册](https://sustech-application.github.io/2020-Fall/#/)
 * [南方科技大学开源软件镜像站 | SUSTech Open Source Mirror（校园网）](https://mirrors.sustc.us/)
 * [南方科技大学超算中心镜像站 | CCSE Open Source Mirrors （校园网）](https://mirrors.sustech.rocks/)
+
+## IPTV（仅限ipv6）
+* [北邮人BYR-IPTV](http://tv.byr.cn/show)
