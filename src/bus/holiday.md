@@ -1,4 +1,4 @@
-# 校园巴士 - 节假日
+# 校园巴士 - 节假日 (2020年5月15日更新)
 
 ## 欣园 → 科研楼（共46班）
 
@@ -349,6 +349,10 @@
 
 
 ## 参考文献
+
+* 2020年5月15日 `校园服务办公室 <ocs@sustech.edu.cn>` 邮件《【工作通知】关于调整校园巴士运行时刻的通知 Notice on Adjustment of Campus Bus Schedule【2020】22号》
+    * [下载链接](./Campus_Bus_Schedule_2020.pdf)（右键 / 长按保存）
+
 * 2019年9月29日 `校园服务办公室 <ocs@sustech.edu.cn>` 邮件《关于调整校园巴士运行时刻及路线的通知 Notice on Adjustment of Campus Bus Schedule and Routes【2019】39号》
     * [下载链接](./Campus_Bus_Schedule_1939.pdf)（右键 / 长按保存）
 
