@@ -1,3 +1,6 @@
+# 此项目暂停维护，前往下一个版本进行贡献 https://github.com/SUSTC/sustech-online-ng
+
+
 # 南科大 Gitbook
 
 [![](https://github.com/sustc/sustc.github.io/workflows/Node-CI/badge.svg)](https://github.com/sustc/sustc.github.io/actions) ![GitHub repo size](https://img.shields.io/github/repo-size/sustc/sustc.github.io.svg)
