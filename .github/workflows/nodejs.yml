@@ -34,7 +34,7 @@ jobs:
       run: |
         cd my_build
         gitbook build . docs/ # build to docs path
-        cp CNAME docs/
+        # cp CNAME docs/ # 移除 CNAME
         cp README.md docs/
 
     - name: Publish
