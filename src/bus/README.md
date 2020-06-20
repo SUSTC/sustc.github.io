@@ -26,9 +26,9 @@
     var date = new Date().getDay();
     var isWeekend = (date == 6) || (date == 0);    // 6 = Saturday, 0 = Sunday
     if (isWeekend){
-        showTime(5, "./holiday.html", "秒后自动跳转到节假日。点击下方按钮手动跳转。");
+        showTime(5000000000000, "./holiday.html", "秒后自动跳转到节假日。点击下方按钮手动跳转。");
     }else{
-        showTime(5, "./workday.html", "秒后自动跳转到工作日。点击下方按钮手动跳转。");
+        showTime(5000000000000, "./workday.html", "秒后自动跳转到工作日。点击下方按钮手动跳转。");
     }
 </script>
 
