@@ -1,4 +1,8 @@
-# 南科 Gitbook
+# 南科 Gitbook（已停止更新）
+
+# 访问新版网站：<https://sustech.online/>
+
+此网站所在仓库暂停维护，前往下一个版本进行贡献 https://github.com/SUSTC/sustech-online-ng
 
 为 SUSTecher 提供快捷信息查询服务。
 
